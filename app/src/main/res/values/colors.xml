@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#59c568</color>
+    <color name="colorPrimaryDark">#59c568</color>
+    <color name="colorAccent">#9e9e9e</color>
+    <color name="grisclaro">#dedfe6</color>
+    <color name="verde">#30e7aa</color>
+    <color name="verdeToolbar">#59c568</color>
+    <color name="goldenEstrellas">#ffae0c</color>
+
+
+</resources>

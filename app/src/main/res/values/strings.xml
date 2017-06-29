@@ -1,0 +1,77 @@
+<resources>
+
+    <string name="app_name">Vonoku</string>
+    <string name="facebook_app_id">1619326324744491</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_in_ime">Loguear</string>
+
+    <string name="hello_blank_fragment">Gracias por su comentario</string>
+    <string name="e_mail">E-MAIL</string>
+    <string name="button">Button</string>
+    <string name="itroduzca_su_nombre_y_su_direccion_de_email">LOG-IN</string>
+    <string name="name">NAME</string>
+    <string name="auth_failed">2</string>
+    <string name="no_hay_mensage">NO HAY MENSAGE</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email</string>
+    <string name="title_activity_notifications">Notificaciones</string>
+    <string name="no_message_text">No hay ningúna notificación todavía</string>
+    <string name="modelo">Address</string>
+    <string name="loginformail">Log-In for @email</string>
+    <string name="loginforname">Log-In for Name</string>
+    <string name="email">EMAIL</string>
+    <string name="nameUptdate">NAME</string>
+    <string name="new_password">Nuevo password</string>
+    <string name="old_password">Antiguo Password</string>
+    <string name="profile_information">PROFILE INFORMATION</string>
+    <string name="upLoad">Subir Producto</string>
+    <string name="checkbox">Gasolina</string>
+    <string name="checkbox_diesel">Diesel</string>
+    <string name="hint_post_art">Obligatorio</string>
+    <string name="hint_opcional">Opcional</string>
+    <string name="descripcion_del_articulo">Descripcion del articulo</string>
+    <string name="precio">Precio</string>
+    <string name="subir_articulo">Subir articulo</string>
+    <string name="telefono">Telefono</string>
+    <string name="titulo">Titulo</string>
+    <string name="dejanos_tu_comentario_y_nos">Dejanos tu comentario y nos pondremos en contacto con la mayor brevedad posible</string>
+    <string name="introduce_tu_cometario">Introduce tu cometario</string>
+    <string name="enviar">Enviar Comentario</string>
+    <string name="como_te_podemos_ayudar">¿ Como te podemos ayudar ?</string>
+    <string name="guardar_comentario">Guardar comentario</string>
+    <string name="que_estas_buscando">Que estas buscando ?</string>
+    <string name="opss">Opss</string>
+    <string name="no_hay_resultados_para_su_busqueda">No hay resultados para su busqueda</string>
+    <string name="dejar_comentario">Dejar comentario</string>
+    <string name="valoraciones_del_usuario">Valoraciones del usuario</string>
+    <string name="articulo">articulo</string>
+    <string name="entra">Entra</string>
+    <string name="pulse_para_continuar">Pulse para continuar...</string>
+    <string name="registrese_con_google">Registrese con Google</string>
+    <string name="registrate">Registrate</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="antiguo_password">Antiguo password</string>
+    <string name="press_to_update">Pulse para actualizar</string>
+    <string name="pulsa_para_ver_tu_posici_n">Pulsa para ver tu posición</string>
+    <string name="sing_in">Sing-In</string>
+    <string name="comentarios">Comentarios :</string>
+    <string name="en_tu_ciudad">En tu ciudad</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+    <string name="compartir">Compartir</string>
+    <string name="edita_tu_perfil">Edita tu Perfil</string>
+    <string name="enviar_comentario_soporte">Ayuda</string>
+    <string name="mis_articulos">Mis articulos</string>
+    <string name="vender">Vender</string>
+
+</resources>

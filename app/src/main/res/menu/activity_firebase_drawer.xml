@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+
+
+        <item
+            android:id="@+id/find_by"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:title="@string/en_tu_ciudad" />
+
+        <item
+            android:id="@+id/nav_vender"
+            android:icon="@android:drawable/arrow_up_float"
+            android:title="@string/vender" />
+
+
+
+            <item
+                android:id="@+id/cosas"
+                android:icon="?android:attr/actionModePasteDrawable"
+                android:title="@string/mis_articulos" />
+
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/edita_tu_perfil" />
+
+        <item
+            android:id="@+id/nav_buscar"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/enviar_comentario_soporte" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/compartir" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/login_sketch"
+            android:title="@string/cerrar_sesion" />
+
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/freagmentComentarios"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:visibility="visible"
+    tools:context="com.example.danny.firebaseapp.MyStock.FragmentComentarios">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/hello_blank_fragment" />
+
+        <EditText
+            android:id="@+id/Comentario"
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textAlignment="textStart" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/RatingBar" />
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corner_gris"
+
+            android:text="@string/guardar_comentario"
+            android:textColor="@color/cardview_light_background" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

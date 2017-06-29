@@ -1,0 +1,76 @@
+<resources>
+
+    <string name="app_name">Vonoku</string>
+    <string name="facebook_app_id">1619326324744491</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_in_ime">Loguear</string>
+    <string name="hello_blank_fragment">Thank you for coment</string>
+    <string name="e_mail">E-MAIL</string>
+    <string name="button">Button</string>
+    <string name="itroduzca_su_nombre_y_su_direccion_de_email">LOG-IN</string>
+    <string name="name">NAME</string>
+    <string name="auth_failed">2</string>
+    <string name="no_hay_mensage">There is not result…</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email</string>
+    <string name="title_activity_notifications">Notificaciones</string>
+    <string name="no_message_text">No hay ningúna notificación todavía</string>
+    <string name="modelo">Address</string>
+    <string name="loginformail">Log-In for @email</string>
+    <string name="loginforname">Log-In for Name</string>
+    <string name="email">EMAIL</string>
+    <string name="nameUptdate">NAME</string>
+    <string name="new_password">New Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="profile_information">PROFILE INFORMATION</string>
+    <string name="upLoad">Upload Products</string>
+    <string name="checkbox">Gasolina</string>
+    <string name="checkbox_diesel">Diesel</string>
+    <string name="hint_post_art">Require</string>
+    <string name="hint_opcional">Optional</string>
+    <string name="descripcion_del_articulo">Description del articulo</string>
+    <string name="precio">Price</string>
+    <string name="subir_articulo">Upload article</string>
+    <string name="telefono">Phone</string>
+    <string name="titulo">Title</string>
+    <string name="dejanos_tu_comentario_y_nos">leave your comment and we will get back to you as soon as possible</string>
+    <string name="introduce_tu_cometario">type your comment</string>
+    <string name="enviar">Send</string>
+    <string name="como_te_podemos_ayudar">¿ How can we help you  ?</string>
+    <string name="guardar_comentario">Save comments</string>
+    <string name="que_estas_buscando">What are you looking for ?</string>
+    <string name="opss">Opss</string>
+    <string name="no_hay_resultados_para_su_busqueda">No results</string>
+    <string name="dejar_comentario">Leave your comment</string>
+    <string name="valoraciones_del_usuario">User ratings</string>
+    <string name="articulo">article</string>
+    <string name="entra">Log in</string>
+    <string name="pulse_para_continuar">Press to  continue…</string>
+    <string name="registrese_con_google">Log-In with Google</string>
+    <string name="registrate">Register</string>
+    <string name="nombre_de_usuario">Name user de usuario</string>
+    <string name="antiguo_password">Old password</string>
+    <string name="press_to_update">Press to update</string>
+    <string name="pulsa_para_ver_tu_posici_n">press to see your location</string>
+    <string name="sing_in">Sing-In</string>
+    <string name="comentarios">Comments :</string>
+    <string name="en_tu_ciudad">In your city</string>
+    <string name="cerrar_sesion">Log out</string>
+    <string name="compartir">Share</string>
+    <string name="edita_tu_perfil">Edit your profile</string>
+    <string name="enviar_comentario_soporte">Send comment/support</string>
+    <string name="mis_articulos">My items</string>
+    <string name="vender">To sale</string>
+
+
+
+</resources>

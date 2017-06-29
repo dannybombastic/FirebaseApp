@@ -1,0 +1,201 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_facebook_auth_dialog_background"
+    android:orientation="vertical"
+    tools:context="com.example.danny.firebaseapp.profile.UpdateProfile"
+    android:gravity="center_vertical|center_horizontal"
+    >
+
+
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="16dp"
+         android:text="@string/nombre_de_usuario"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+      />
+
+    <View
+
+
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+
+        android:background="@color/colorPrimary" />
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:background="@color/grisclaro"
+        android:textColor="@color/cardview_light_background"
+
+        android:id="@+id/textVemailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textAlignment="textStart"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:id="@+id/telefonoUptdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/telefono"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+       />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary" />
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:background="@color/grisclaro"
+        android:textColor="@color/cardview_light_background"
+
+        android:id="@+id/update_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+
+        android:inputType="textEmailAddress"
+
+
+        android:textSize="19sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/antiguo_password"
+            android:textAlignment="textStart"
+            android:textSize="14sp"
+         />
+        <View
+
+
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:background="@color/colorPrimary" />
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:background="@color/grisclaro"
+            android:textColor="@color/cardview_light_background"
+
+            android:id="@+id/old_password"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+
+            android:textAlignment="textStart"
+            android:inputType="textPersonName|textPassword"
+            android:padding="5dp"
+
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="16dp"
+            android:text="@string/new_password"
+            android:textAlignment="textStart"
+            android:textSize="14sp"
+            />
+        <View
+
+
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary" />
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:background="@color/grisclaro"
+            android:textColor="@color/cardview_light_background"
+            android:id="@+id/new_password"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+
+
+            android:inputType="text|textVisiblePassword"
+            android:padding="5dp"
+            android:textAlignment="textStart"
+            android:textSize="19sp" />
+
+
+    </LinearLayout>
+
+
+    <Button
+
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:id="@+id/editText25"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/corner_white"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="40dp"
+        android:text="@string/press_to_update"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pulsa_para_ver_tu_posici_n"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:gravity="center">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fabMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:visibility="visible"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:srcCompat="@android:drawable/ic_dialog_map" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+</LinearLayout>
